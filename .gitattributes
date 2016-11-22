@@ -1,0 +1,10 @@
+# Windows-specific files that require CRLF:
+*.bat       eol=crlf
+*.txt		eol=crlf
+*.java		eol=crlf
+*.html		eol=crlf
+*.css		eol=crlf
+*.js		eol=crlf
+
+# Unix-specific files that require LF:
+*.sh		eol=lf
