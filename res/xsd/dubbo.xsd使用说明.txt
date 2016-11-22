@@ -1,0 +1,6 @@
+	在Eclipse IDE中找到首选项Preferences，然后左侧选择XML中的XML Catalog，在右侧
+选择Add按钮。弹出的窗口中默认选择的是左侧的Catalog Entry选项卡，在右侧点击File S
+ystem按钮，然后选择到刚刚存放的dubbo.xsd文件，这时候Location就有路径信息了。别着
+急关闭窗口，一定要继续修改Key的内容由“http://code.alibabatech.com/schema/dubbo”
+变为“http://code.alibabatech.com/schema/dubbo/dubbo.xsd”，然后点击OK关闭所有窗口。 
+	回到Eclipse中右键点击配置文件，选择Validate，然后红叉就都消失了嘿！
